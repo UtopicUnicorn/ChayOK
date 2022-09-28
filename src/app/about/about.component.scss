@@ -1,0 +1,74 @@
+.container{
+  padding-bottom: 100px;
+}
+
+.image-block{
+  position: center;
+}
+
+.image-block img{
+  width: 100%;
+}
+
+.content{
+  margin-top: 100px;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-block{
+  padding: 20px;
+  position: relative;
+  margin: auto;
+  border: solid 1px black;
+  width: 516px;
+  height: 232px;
+}
+
+.center-block p{
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.center-block p::first-letter, h2::first-letter, button::first-letter{
+  text-transform: uppercase;
+}
+
+
+.about-us{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-block{
+  padding: 40px;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 0 50px rgba(255, 0, 0, 0.2);
+  margin: auto;
+  width: 800px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about-block p{
+  font-size: 18px;
+  text-align: start;
+}
+
+.about-block p::first-letter, h1::first-letter{
+  text-transform: uppercase;
+}
+
+.button{
+  border-radius: 20px;
+  bottom: -30%;
+}
